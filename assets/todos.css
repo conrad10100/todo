@@ -6,18 +6,12 @@ html, body{
 	font-family: 'Aldrich';
 }
 
-.header{
-	text-align: center;
-	height: 100%;
-	min-height: 100%;
-}
 
 ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
-
 
 h1 {
 	background: #2980b9;
@@ -47,7 +41,6 @@ li:nth-child(2n){
 span {
 	background: #e74c3c;
 	height: 40px;
-	margin-right: 20px;
 	text-align: center;
 	color: white;
 	width: 0;
@@ -89,19 +82,15 @@ input:focus{
 	text-decoration: line-through;
 }
 
-
-
-
-
 .wave {
   opacity: .4;
   position: absolute;
 
   background: #0af;
-  width: 22%;
-  height: 22%;
+  width:200px;
+  height: 12%;
   top: -8%;
-  left: 40%;
+  left: 48%;
 
   transform-origin: 50% 48%;
   border-radius: 43%;
@@ -120,4 +109,8 @@ input:focus{
 @keyframes drift {
   from { transform: rotate(0deg); }
   from { transform: rotate(360deg); }
+}
+
+.name{
+	text-indent:50px;
 }
